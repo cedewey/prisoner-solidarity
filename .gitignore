@@ -2,9 +2,11 @@
 sites/*/*settings*.php
 
 # Ignore paths that contain generated content.
+iconsdonotdelete/
 files/
 sites/*/files
 sites/*/private
+sites\\default\\files\\private/
 
 # Ignore default text files
 robots.txt
@@ -19,5 +21,6 @@ sites/all/README.txt
 sites/all/modules/README.txt
 sites/all/themes/README.txt
 
-# Ignote cache folder
+# Ignore cache folder
 cache
+
