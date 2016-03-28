@@ -4,6 +4,7 @@ sites/*/*settings*.php
 # Ignore paths that contain generated content.
 iconsdonotdelete/
 files/
+sites/default/files
 sites/*/files
 sites/*/private
 sites\\default\\files\\private/
