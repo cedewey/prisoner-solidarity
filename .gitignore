@@ -24,3 +24,5 @@ sites/all/themes/README.txt
 # Ignore cache folder
 cache
 
+#Ignore FTP settings
+.ftpquota
