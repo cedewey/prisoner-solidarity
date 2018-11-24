@@ -4,3 +4,10 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+
+# Ignore MayFirst specific files
+.editorconfig
+.user.ini
+cache/normal/prisonersolidarity.mayfirst.org/
+cache/normal/prisonersolidarity.net/
+cache/normal/www.prisonersolidarity.net/
