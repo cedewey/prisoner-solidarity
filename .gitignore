@@ -7,3 +7,4 @@ sites/*/private
 
 # Ignore cache folder
 cache/*
+cache/normal/prisonersolidarity.net/_.html
