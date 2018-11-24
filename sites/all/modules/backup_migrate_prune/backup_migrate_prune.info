@@ -10,9 +10,9 @@ files[] = backup_migrate_prune.test
 files[] = class/Gardener.php
 
 dependencies[] = backup_migrate
-; Information added by Drupal.org packaging script on 2015-07-28
-version = "7.x-2.0"
+; Information added by Drupal.org packaging script on 2016-05-03
+version = "7.x-2.1"
 core = "7.x"
 project = "backup_migrate_prune"
-datestamp = "1438058645"
+datestamp = "1462254248"
 

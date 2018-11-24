@@ -37,6 +37,8 @@ function backup_migrate_prune_schema() {
         'description' => 'Settings for the gardener.',
         'type' => 'text',
         'not null' => TRUE,
+        'serialize' => TRUE,
+        'serialized default' => 'a:0:{}',
       ),
       'created' => array(
         'description' => 'Creation timestamp.',

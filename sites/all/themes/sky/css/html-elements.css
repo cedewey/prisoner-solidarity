@@ -39,13 +39,6 @@ a img {
   border: none;
 }
 
-.field-name-page-adopted- img {
-float:left;
-}
-
-.field-name-page-unlocked- img {
-float:left;
-}
 img {
   max-width: 100%;
   height: auto;
@@ -91,10 +84,6 @@ q {
 blockquote,
 p {
   margin: 1.5em 0;
-}
-
-p.adoptionblock {
-float:left;
 }
 
 p:first-child,

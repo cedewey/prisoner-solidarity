@@ -95,7 +95,7 @@ function backup_migrate_prune_add_form($form, $form_state, $gardener_id = NULL) 
 		'#required' => TRUE,
     '#default_value' => $gardener->getName(),
 	);
-	foreach (backup_migrate_get_destinations() as $key => $value) {
+	foreach (backup_migrate_get_destinations('list files') as $key => $value) {
 		$options[$key] = $value->name;
 	}
 	$form['destination'] = array(

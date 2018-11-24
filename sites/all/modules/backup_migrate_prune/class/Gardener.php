@@ -235,7 +235,7 @@ class Gardener {
     // We have a list of all files in $fileset we are going to:
     //   1. Remove the files from $fileset we want to save
     //   2. Delete all remaining files
-    if (isset($settings[$slot]) && $settings[$slot]['active']) {
+    if (isset($settings[$slot]) && !empty($settings[$slot]['active'])) {
       $category_value = NULL;
       // This gardener has to prune these backups
       if (isset($settings[$slot]['keep'])) {

